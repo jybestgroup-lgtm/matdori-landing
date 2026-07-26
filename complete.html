@@ -45,6 +45,17 @@
   p{font-size:17px;color:#666;line-height:1.75;margin-bottom:8px;}
   .brand{margin-top:34px;font-weight:800;color:#EE5A0E;font-size:18px;}
   .home{margin-top:30px;display:inline-block;color:#EE5A0E;font-weight:700;font-size:16px;text-decoration:none;border:1.5px solid #EE5A0E;border-radius:8px;padding:13px 24px;}
+  .contact{margin-top:24px;background:#FFF6EC;border:1px solid #F3D9BE;border-radius:14px;padding:20px;color:#8a5a26;}
+  .contact b{color:#EE5A0E;font-size:24px;display:inline-block;animation:blink24 1s ease-in-out infinite;}
+  @keyframes blink24{0%,100%{opacity:1;}50%{opacity:.25;}}
+  .pcard{margin-top:21px;padding-top:21px;border-top:1px dashed #EAC9A6;}
+  .pcard:first-of-type{margin-top:18px;}
+  .ptime{font-size:18px;color:#a06a2e;margin-bottom:6px;}
+  .pname{font-size:18px;font-weight:800;color:#5a3c18;margin-top:6px;}
+  .pname .role{color:#EE5A0E;font-weight:800;margin-left:4px;}
+  .pnum{font-size:22px;font-weight:800;color:#5a3c18;letter-spacing:.3px;margin-top:6px;}
+  .callbtn{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:16px;width:100%;background:#EE5A0E;color:#fff;font-size:19px;font-weight:800;text-decoration:none;border-radius:12px;padding:16px 20px;box-shadow:0 4px 14px rgba(238,90,14,.28);}
+  .ft{max-width:480px;margin:0 auto;padding:22px 28px 40px;text-align:center;color:#9a938c;font-size:13px;line-height:1.8;}
 </style>
 </head>
 <body>
@@ -54,7 +65,26 @@
     <p>맛도리감자탕 창업 담당자가<br>순차적으로 연락드리겠습니다.</p>
     <p>편안한 마음으로 잠시만 기다려 주세요.</p>
     <div class="brand">맛도리감자탕 · 청주 사창 본점</div>
-    <a class="home" href="./">← 랜딩으로 돌아가기</a>
+    <div class="contact">
+      <b>24시간 상담</b>
+      <div class="pcard">
+        <div class="ptime">9시 - 18시</div>
+        <div class="pname">허정은<span class="role">대표</span></div>
+        <div class="pnum">010-5645-6903</div>
+        <a class="callbtn" href="tel:01056456903">📞 바로 전화하기</a>
+      </div>
+      <div class="pcard">
+        <div class="ptime">18시 - 06시</div>
+        <div class="pname">민병선<span class="role">대표</span></div>
+        <div class="pnum">010-7289-1735</div>
+        <a class="callbtn" href="tel:01072891735">📞 바로 전화하기</a>
+      </div>
+    </div>
+    <a class="home" href="./">창업안내 다시보기</a>
   </div>
+  <footer class="ft">
+    맛도리감자탕 · 가맹본부 주식회사 마리푸드<br>
+    충청북도 청주시 서원구 창작로 14, 1층
+  </footer>
 </body>
 </html>
